@@ -12,23 +12,55 @@
         html{
             height: 100%;
         }
-         @keyframes myfirst{
-            from {opacity: 0;}
-            to {opacity: 100;}
+          @keyframes myfirst{
+            0% {opacity: 100}
+            25% {opacity: 0}
+            75% {opacity: 0}
+            100% {opacity: 0}
         }
+        @keyframes myfirst1{
+            0% {opacity: 0}
+            25% {opacity: 100}
+            75% {opacity: 0}
+            100% {opacity: 0}
+        }
+        @keyframes myfirst2{
+            0% {opacity: 0}
+            25% {opacity: 0}
+            75% {opacity: 100}
+            100% {opacity: 0}
+        }
+        @keyframes myfirst3{
+            0% {opacity: 0}
+            25% {opacity: 0}
+            75% {opacity: 0}
+            100% {opacity: 100}
+        }
+
         p{
             font-size: 200px;
             position: absolute;
             width: 100%;
             text-align: center;
-            animation: myfirst 2s infinite;
+        }
+        #01{
+            animation: myfirst 3s infinite;
+        }
+        #02{
+            animation: myfirst1 3s infinite;
+        }
+        #03{
+            animation: myfirst 3s infinite;
+        }
+        #04{
+            animation: myfirst 3s infinite;
         }
     </style>
 </head>
 <body>
-<p>说好的不哭</p>
-<p>等你下课</p>
-<p>告白气球</p>
-<p>青花瓷</p>
+<p id="01">说好的不哭</p>
+<p id="02">等你下课</p>
+<p id="03">告白气球</p>
+<p id="04">青花瓷</p>
 </body>
 </html>
