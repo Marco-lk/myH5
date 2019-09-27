@@ -16,11 +16,6 @@
             padding-top:30%;
             text-align: center;
         }
-        #z{
-            font-size: 36px;
-            display: block;
-            animation: z 5s infinite;
-        }
         #c{
             background-color: lightgreen;
             animation: c 5s infinite;
@@ -37,6 +32,18 @@
             background-color: black;
             color: white;
             animation: d 5s infinite;
+        }
+        #z{
+            font-size: 36px;
+            display: block;
+            animation: z 5s infinite;
+        }
+        @keyframes z{
+            0%{opacity: 0}
+            70%{opacity: 0}
+            80%{opacity: 100}
+            90%{opacity: 100}
+            100%{opacity: 0}
         }
         @keyframes c {
             0%{opacity: 0}
@@ -62,13 +69,6 @@
             0%{opacity: 0}
             60%{opacity: 0}
             80%{opacity: 100}
-            100%{opacity: 0}
-        }
-         @keyframes z{
-            0%{opacity: 0}
-            70%{opacity: 0}
-            80%{opacity: 100}
-            90%{opacity: 100}
             100%{opacity: 0}
         }
     </style>
