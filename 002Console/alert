@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        alert("鲁迅说：“你就是个天才”")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
